@@ -12,7 +12,7 @@ def index(response, id):
 
 def home(response):
     return render(response,"main/home.html",{})
-
+#test
 def create(response):
     if response.method == "POST":
         form=CreateNewList(response.POST)
